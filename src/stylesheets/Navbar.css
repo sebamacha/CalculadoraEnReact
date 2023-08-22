@@ -1,0 +1,31 @@
+.Navbar {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  height: 35px;
+  margin: 0px;
+}
+
+.Navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.Navbar li {
+  margin: 0 10px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.Navbar a:hover {
+  text-decoration: underline;
+}

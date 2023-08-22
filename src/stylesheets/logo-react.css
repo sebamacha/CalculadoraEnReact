@@ -1,0 +1,13 @@
+.logo-react {
+  height: 25px;
+  animation: rotate 2s linear infinite; /* Animación llamada 'rotate' */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); /* Empieza desde 0 grados */
+  }
+  100% {
+    transform: rotate(360deg); /* Termina en 360 grados (1 vuelta completa) */
+  }
+}
