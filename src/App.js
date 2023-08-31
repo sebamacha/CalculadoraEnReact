@@ -59,13 +59,13 @@ function App() {
           <Boton manejarClic={agregarInput}>*</Boton>
         </div>
         <div className="fila">
-          <Boton manejarClic={calcularResultado}>=</Boton>
+          <BotonClear manejarClear={() => setInput("")}>Borrar</BotonClear>
           <Boton manejarClic={agregarInput}>0</Boton>
           <Boton manejarClic={agregarInput}>.</Boton>
           <Boton manejarClic={agregarInput}>/</Boton>
         </div>
-        <div className="fila">
-          <BotonClear manejarClear={() => setInput("")}>Borrar</BotonClear>
+        <div className="BotonClear">
+          <Boton manejarClic={calcularResultado}>=</Boton>
         </div>
       </div>
       <div></div>
